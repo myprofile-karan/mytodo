@@ -9,7 +9,7 @@ const Page = () => {
 
   const onClickHandler = () => {
     // console.log(task);
-    // console.log(desc);
+    // console.log(desc); 
   if(!task == "" || !desc == ""){
     setMainTask([...mainTask, { task, desc }]);
     setTask("");
